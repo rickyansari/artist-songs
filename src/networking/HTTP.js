@@ -1,4 +1,5 @@
 import defaultAPIClient from "./Client";
+import { GET } from "src/helper/constants";
 
 function isNetworkError(error) {
   return error.isAxiosError && !error.response;
